@@ -31,6 +31,12 @@ export const Player: React.FC<Props> = ({
     <ReadMeImg
       width="466"
       height="125">
+      <Text
+        id="title"
+        weight="bold"
+        size="title">
+        currently jamming to
+      </Text>
 
       <div className="now-playing-wrapper">
         {track && <div className="bar-container left">
