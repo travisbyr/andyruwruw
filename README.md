@@ -13,7 +13,7 @@ hello! here's a little about me:
 </p>
 
 <p align="center">
-  <img src="https://andyruwruw-now-playing-spotify-git-master.travisbyr.vercel.app/api/top-played">
+  <img src="https://andyruwruw.vercel.app/api/top-played">
 </p>
  
 <p align="center">
