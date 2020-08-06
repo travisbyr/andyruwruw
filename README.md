@@ -6,18 +6,8 @@ hello! here's a little about me:
 
 <!-- Nothing weird to see here -->
 <p align="center"> 
-  
-  
-  <a href="https://andyruwruw-now-playing-spotify-git-master.travisbyr.vercel.app/api/now-playing?open">
-  
-  
-    <!-- Music bars move to the beat and are colored based on the track's happiness, danceability and energy! -->
-    
-    
+  <a href="https://andyruwruw-now-playing-spotify-git-master.travisbyr.vercel.app/api/now-playing?open">    
     <img src="https://andyruwruw-now-playing-spotify-git-master.travisbyr.vercel.app/api/now-playing">
-    
-    
-    
   </a>
   </a>
 </p>
