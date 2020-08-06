@@ -6,9 +6,10 @@ hello! here's a little about me:
 
 <!-- Nothing weird to see here -->
 <p align="center">
-  <a href="https://now-playing-profile-git-master.travisbyr.vercel.app/api/now-playing?open">
+  <a href="https://andyruwruw.vercel.app/api/now-playing?open">
     <!-- Music bars move to the beat and are colored based on the track's happiness, danceability and energy! -->
-    <img src="https://now-playing-profile-git-master.travisbyr.vercel.app/now-playing">
+    <img src="https://andyruwruw.vercel.app/api/now-playing">
+  </a>
   </a>
 </p>
 
