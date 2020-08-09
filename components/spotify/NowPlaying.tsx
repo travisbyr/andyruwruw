@@ -77,7 +77,6 @@ export const Player: React.FC<Props> = ({
               flexDirection: "column",
               marginTop: -4,
               marginLeft: 8,
-              color: #eb4034,
             }}>
             <Text
               id="track"
@@ -117,7 +116,7 @@ export const Player: React.FC<Props> = ({
           .now-playing-wrapper {
             display: flex;
             justify-content: center;
-            color: 0000FF;
+            /*to change the progress color*/
           }
           
           p {
