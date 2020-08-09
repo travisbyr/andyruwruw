@@ -54,7 +54,6 @@ export const Player: React.FC<Props> = ({
           className={isPlaying ? "disabled" : ""}
           style={{
             color: "rgb(254,66,142)",
-            background-color: "rgb(254,66,142)",
             display: "flex",
             alignItems: "center",
             paddingTop: 8,
@@ -79,7 +78,6 @@ export const Player: React.FC<Props> = ({
               marginTop: -4,
               marginLeft: 8,
               color: "rgb(254,66,142)",
-              background-color: "rgb(254,66,142)",
             }}>
             <Text
               id="track"
