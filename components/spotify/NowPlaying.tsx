@@ -80,6 +80,7 @@ export const Player: React.FC<Props> = ({
             <Text
               id="track"
               weight="bold">
+              color: eb4034;
               {`${track ?? ""} `.trim()}
             </Text>
 
