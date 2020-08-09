@@ -62,6 +62,7 @@ export const Player: React.FC<Props> = ({
             margin: ".5rem 0",
             padding: ".5rem",
             border: "1px solid rgb(0,0,0,.1)",
+            color: "eb4034",
           }}>
           <img
             id="cover"
@@ -80,7 +81,6 @@ export const Player: React.FC<Props> = ({
             <Text
               id="track"
               weight="bold">
-              color: eb4034;
               {`${track ?? ""} `.trim()}
             </Text>
 
