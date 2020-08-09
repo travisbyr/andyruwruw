@@ -134,6 +134,8 @@ export const Player: React.FC<Props> = ({
           #artist,
           #cover,
           #title {
+            color: #fe428e;
+            background-color: #fe428e;
             opacity: 0;
             animation: appear 300ms ease-out forwards;
           }
@@ -144,7 +146,6 @@ export const Player: React.FC<Props> = ({
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            color: #fe428e;
           }
           
           #title {
