@@ -116,7 +116,7 @@ export const Player: React.FC<Props> = ({
           .now-playing-wrapper {
             display: flex;
             justify-content: center;
-            /*to change the progress color*/
+        
           }
           
           p {
