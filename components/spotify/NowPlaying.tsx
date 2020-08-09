@@ -77,7 +77,7 @@ export const Player: React.FC<Props> = ({
               flexDirection: "column",
               marginTop: -4,
               marginLeft: 8,
-              color: eb4034;
+              color: eb4034,
             }}>
             <Text
               id="track"
