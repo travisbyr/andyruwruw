@@ -144,6 +144,7 @@ export const Player: React.FC<Props> = ({
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
+            color: #fe428e;
           }
           
           #title {
