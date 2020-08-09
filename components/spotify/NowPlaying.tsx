@@ -35,7 +35,7 @@ export const Player: React.FC<Props> = ({
         id="title"
         weight="bold"
         size="title">
-        Now Playing on Spotify
+        currently jamming to
       </Text>
 
       <div className="now-playing-wrapper">
@@ -62,7 +62,6 @@ export const Player: React.FC<Props> = ({
             margin: ".5rem 0",
             padding: ".5rem",
             border: "1px solid rgb(0,0,0,.1)",
-          
           }}>
           <img
             id="cover"
@@ -116,7 +115,6 @@ export const Player: React.FC<Props> = ({
           .now-playing-wrapper {
             display: flex;
             justify-content: center;
-        
           }
           
           p {
@@ -217,7 +215,7 @@ export const Player: React.FC<Props> = ({
             width: 100%;
             height: 6px;
             transform-origin: left center;
-            background-color: #0000FF;
+            background-color: #24292e;
             animation: progress ${duration}ms linear;
             animation-delay: -${progress}ms;
           }
