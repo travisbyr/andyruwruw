@@ -53,12 +53,11 @@ export const Player: React.FC<Props> = ({
         <div
           className={isPlaying ? "disabled" : ""}
           style={{
-            color: "rgb(254,66,142)",
             display: "flex",
             alignItems: "center",
             paddingTop: 8,
             paddingLeft: 4,
-            /*background: "rgb(0,0,0,.01)",*/
+            background: "rgb(0,0,0,.01)",
             borderRadius: ".3rem",
             margin: ".5rem 0",
             padding: ".5rem",
@@ -77,7 +76,6 @@ export const Player: React.FC<Props> = ({
               flexDirection: "column",
               marginTop: -4,
               marginLeft: 8,
-              color: "rgb(254,66,142)",
             }}>
             <Text
               id="track"
