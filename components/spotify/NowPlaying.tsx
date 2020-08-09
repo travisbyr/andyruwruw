@@ -35,7 +35,7 @@ export const Player: React.FC<Props> = ({
         id="title"
         weight="bold"
         size="title">
-        currently jamming to
+        Listening Now on Spotify
       </Text>
 
       <div className="now-playing-wrapper">
