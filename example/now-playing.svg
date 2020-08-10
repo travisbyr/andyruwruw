@@ -108,7 +108,7 @@
             width: 100%;
             height: 6px;
             transform-origin: left center;
-            background-color: #24292e;
+            background-color: #800080;
             animation: progress 183440ms linear;
             animation-delay: -4677ms;
           }
