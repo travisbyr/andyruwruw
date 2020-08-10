@@ -82,7 +82,8 @@
             height: 10px;
             width: 50px;
             margin: 2px 0;
-            background: rgba(132.6, 172.89000000000001, 137.19, .7);
+<!--             background: rgba(132.6, 172.89000000000001, 137.19, .7); -->
+            background-color: #800080;
             animation: bars 1.7671833333333333s ease calc(var(--offset) * -.5s) infinite;
           }
           
@@ -98,8 +99,6 @@
             z-index: 0;
             animation-delay: 550ms;
             margin-top: 4px;
-            color: #800080;
-            background-color: #800080;
           }
           
           #progress {
