@@ -98,7 +98,8 @@
             z-index: 0;
             animation-delay: 550ms;
             margin-top: 4px;
-            color:#800080
+            color: #800080;
+            background-color: #800080;
           }
           
           #progress {
