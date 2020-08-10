@@ -21,6 +21,9 @@ export interface Props {
  ******* Original Bar background ************
  * background: rgba(${audioFeatures ? audioFeatures.energy * 255 : 255}, ${audioFeatures ? audioFeatures.valence * 255 : 255}, ${audioFeatures ? audioFeatures.danceability * 255 : 255}, .7);
  *********************************************
+ * Progress bar 
+ ******** background-color: #24292e;
+ *****
  */
 export const Player: React.FC<Props> = ({
   cover,
@@ -154,14 +157,17 @@ export const Player: React.FC<Props> = ({
             animation-delay: 0ms;
             text-align: center;
             margin: .5rem;
+            color: #0c71e0;
           }
           
           #track {
             animation-delay: 400ms;
+            color: #0c71e0;
           }
           
           #artist {
             animation-delay: 500ms;
+            color: #0c71e0;
           }
           
           #cover {
@@ -219,7 +225,7 @@ export const Player: React.FC<Props> = ({
             width: 100%;
             height: 6px;
             transform-origin: left center;
-            background-color: #24292e;
+            background-color: #0c71e0;
             animation: progress ${duration}ms linear;
             animation-delay: -${progress}ms;
           }
