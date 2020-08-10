@@ -17,6 +17,10 @@ export interface Props {
  * Player
  * Displays currently playing track.
  * @param trackLists 
+ 
+ ******* Original Bar background ************
+ * background: rgba(${audioFeatures ? audioFeatures.energy * 255 : 255}, ${audioFeatures ? audioFeatures.valence * 255 : 255}, ${audioFeatures ? audioFeatures.danceability * 255 : 255}, .7);
+ *********************************************
  */
 export const Player: React.FC<Props> = ({
   cover,
