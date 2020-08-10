@@ -190,7 +190,7 @@ export const Player: React.FC<Props> = ({
             height: 10px;
             width: 50px;
             margin: 2px 0;
-            background-color: #800080;
+            background-color: #0c71e0;
             animation: bars ${audioFeatures ? (audioFeatures.tempo / 60) * 1 : 1}s ease calc(var(--offset) * -.5s) infinite;
           }
           
